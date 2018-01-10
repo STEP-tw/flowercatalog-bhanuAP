@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Flower Catalog Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+      let hide = function() {
+        document.getElementById('waterJarGif').style.visibility = "hidden";
+        setTimeout(function() {
+          document.getElementById('waterJarGif').style.visibility = "visible";
+        },1000);
+        return;
+      }
+    </script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="mailColumn">
+        <!-- <div class="userName">
+          <h2>login</h2>
+        </div> -->
+        <div class="header">
+          <h4>Flower Catalog</h4>
+        </div>
+        <hr>
+        <div class="">
+          <img src="freshorigins.jpg" alt="ImageNotFound">
+        </div>
+        <ul id="flowerWebsiteLinks">
+          <li><a href="abeliophyllum.html">Abeliophyllum</a></li>
+          <li><a href="ageratum.html">Ageratum</a></li>
+        </ul>
+        <img id="waterJarGif" onclick="hide()" src="animated-flower-image-0021.gif" alt="gifNotFound">
+        <a id="guestBookLink" href="guestBook.html">Guest book</a>
+      </div>
+    </div>
+  </body>
+</html>

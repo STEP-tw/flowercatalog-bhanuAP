@@ -1,0 +1,138 @@
+.wrapper {
+  width: 1660px;
+  height: 1000px;
+}
+
+.mailColumn {
+  margin-left: 120px;
+  width: 85%;
+  height: 100%;
+}
+
+/* .userName {
+  text-align: right;
+  font-family: sans-serif;
+} */
+
+.header {
+  text-align: right;
+  margin-right: 250px;
+  font-size: 35px;
+  color: orange;
+}
+
+#flowerWebsiteLinks {
+  margin-top: -580px;
+  vertical-align: center;
+  margin-left: 1025px;
+}
+
+#waterJarGif {
+  margin-left: 1100px;
+}
+
+#guestBookLink {
+  margin-left: -173px;
+}
+
+#abeliophyllumHeader {
+  margin-top: 70px;
+  text-align: center;
+  font-size: 32px;
+  color: orange;
+}
+
+#homePageLink {
+  margin-right: 260px;
+}
+
+#abeliophyllumHeading {
+  margin-top: -33px;
+}
+
+#abeliophyllumImage {
+  width: 40%;
+  height: 40%;
+}
+
+.abeliophyllumContent {
+  margin-left: 570px;
+  margin-top: -450px;
+  font-size: 20px;
+}
+
+.pdfDownloadLink {
+  margin-left: 570px;
+}
+
+#ageratumHeader {
+  margin-top: 70px;
+  text-align: center;
+  font-size: 32px;
+  color: orange;
+}
+
+#ageratumHeading {
+  margin-top: -33px;
+  margin-left: -65px;
+}
+
+#ageratumImage {
+  width:65%;
+  height: 65%;
+}
+
+.ageratumContent {
+  margin-left: 920px;
+  margin-top: -580px;
+  font-size: 20px;
+}
+
+#pdfDownloadLink {
+  margin-left: 920px;
+}
+
+.guestBookHeader {
+  margin-top: 80px;
+  text-align: center;
+  font-size: 42px;
+  color: orange;
+}
+
+#homePageHeading {
+  margin-top: -40px;
+}
+
+#nameBox {
+  margin-top: -50px;
+}
+
+#nameHeading {
+  float: left;
+  margin-top: -2px;
+}
+
+#commentHeading {
+  margin-top: 60px;
+  margin-left: -58px;
+  float: left;
+}
+
+#commentBox {
+  margin-top: 15px;
+  height: 60px;
+  width: 200px;
+  float: left;
+}
+
+#submitButton {
+  margin-left: -290px;
+  margin-top: 80px;
+  background-color: #F2F2F2;
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+
+.setSanSerif {
+  font-family: sans-serif;
+}

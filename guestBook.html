@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>guest book</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="mailColumn">
+        <div class="guestBookHeader">
+          <a id="homePageLink" href="index.html" title="go back to home page"><<</a>
+          <h4 id="homePageHeading">Guest Book</h4>
+        </div>
+        <div>
+          <h1>Leave a comment</h1>
+          <form action="server.js" method="post">
+            <h3 id="nameHeading">Name:</h3>
+            <input type="text" name="person" placeHolder="  Type your name here" required><br>
+            <h3 id="commentHeading">Comment:</h3>
+            <textarea id="commentBox" type="text" name="comment" placeHolder="  Type your comment here" required></textarea><br>
+            <button id="submitButton" type="submit">submit</button>
+            <hr>
+            <h2>DATETIME_NAME_COMMENTS_LIST</h2>
+          </form>
+          <h2 class="setSanSerif">No Comments Entered</h2>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
